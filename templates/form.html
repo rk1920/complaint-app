@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complaint Form</title>
+</head>
+<body>
+    <h1>Submit Your Complaint</h1>
+    <form action="/submit" method="POST">
+        Name: <input type="text" name="name" required><br><br>
+        Email: <input type="email" name="email" required><br><br>
+        Date: <input type="date" name="date" required><br><br>
+        Place: <input type="text" name="place" required><br><br>
+        Description:<br>
+        <textarea name="description" rows="5" cols="30" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
